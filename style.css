@@ -1,0 +1,74 @@
+/* 
+*  gemsoong-skin
+*/
+
+body {
+		font-size : 1.5em;
+		background-color : #f7f7f7;
+		}
+	
+h1 {
+	font-family : "Arial"; 
+	font-size : 3em; 
+	font-weight : bold;
+	}
+
+#container {
+	width : 940px;
+	margin : 0 auto;
+	padding : 0;
+	background-color : #ffffff;
+	box-shadow:0 1em 2em rgba(0,0,0,.15);
+	}
+
+#header {
+	padding : 100px 10px 10px 10px;
+	background-image : linear-gradient(#5bc0de ,#0275d8 );
+	}
+
+#header a {
+	color : #ffffff;
+	text-decoration: none;
+    transition: color 0.2s linear;
+   -webkit-transition: color 0.2s linear;
+   -moz-transition: color 0.2s linear;
+}
+
+#header a:hover {
+	color : #292b2c;
+}
+
+/* only for title (name) */
+#header h1 span{
+		font-family : Courier New;
+		background : #292b2c;
+		padding : 0 10px;
+	}
+
+/* header-ul, li */
+#header ul {
+		list-style-type : none;
+		margin : 0;
+		padding : 0 10px;
+		overflow : hidden;
+	}
+	
+#header li {
+    float : left;
+	padding-right : 20px;
+}
+
+#content {
+	padding : 20px;
+	}
+	
+
+@media ( max-width : 480px ) {
+		#container {
+			width : auto;
+		}
+		
+		#header {
+			padding : 10px;
+		}
+}
