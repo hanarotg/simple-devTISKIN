@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+	<information>
+		<name>#1</name>
+		<version>1.0</version>
+		<description>
+			<![CDATA[ 다양한 글을 여러 기기에서 읽기 좋게 보여주는 스킨입니다. ]]>
+		</description>
+		<license>
+			<![CDATA[ MIT License ]]>
+		</license>
+	</information>
+	<author>
+		<name>Taegyeong Lee</name>
+		<homepage>https://hanarotg.tistory.com</homepage>
+		<email>forpagens@gmail.com</email>
+	</author>
+	<contest>
+		<description>gem-soong 심플 개인 블로그 스킨</description>
+		<preview></preview>
+		<document>https://hanarotg.tistory.com/entry/gem-soong-skin-%EB%A9%94%EB%89%B4%EC%96%BC</document>
+	</contest>
+	<default>
+		<recentEntries>4</recentEntries>
+		<recentComments>4</recentComments>
+		<recentTrackbacks>4</recentTrackbacks>
+		<itemsOnGuestbook>10</itemsOnGuestbook>
+		<tagsInCloud>30</tagsInCloud>
+		<sortInCloud>3</sortInCloud>
+		<expandComment>1</expandComment>
+		<lengthOfRecentNotice>25</lengthOfRecentNotice>
+		<lengthOfRecentEntry>27</lengthOfRecentEntry>
+		<lengthOfRecentComment>30</lengthOfRecentComment>
+		<lengthOfRecentTrackback>30</lengthOfRecentTrackback>
+		<lengthOfLink>30</lengthOfLink>
+		<showListOnCategory>1</showListOnCategory>
+		<showListOnArchive>1</showListOnArchive>
+		<commentMessage>
+			<none>0</none>
+			<single>1</single>
+		</commentMessage>
+		<trackbackMessage>
+			<none>0</none>
+			<single>1</single>
+		</trackbackMessage>
+		<tree>
+			<color>000000</color>
+			<bgColor>ffffff</bgColor>
+			<activeColor>000000</activeColor>
+			<activeBgColor>eeeeee</activeBgColor>
+			<labelLength>27</labelLength>
+			<showValue>1</showValue>
+		</tree>
+		<contentWidth>820</contentWidth>
+	</default>
+</skin>
